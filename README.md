@@ -1,5 +1,9 @@
 # Allowlist
 
+Allowlist is a tool for verifying raw contract data against a per-protocol registry of allowed method selectors and arguments.
+
+Each protocol maintains their own allowlist, and allowlist owners are verified using DNSSec TXT records on their domain.
+
 An allowlist in this context provides the ability to store, on chain, a set of supported transactions that can be validated against, 
 for example, to verify that the transaction a website is about to submit is a valid interaction with the protocol. 
 
